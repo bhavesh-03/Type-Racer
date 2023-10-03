@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header"
 import {texts} from "./data/text"
-import Content from ""
+import Content from "./Content"
 
 
 function App() {

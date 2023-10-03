@@ -3,7 +3,7 @@ import RaceTrack from "./components/RaceTrack";
 import TextCard from "./components/TextCard";
 
 
-const Content = ({text}) => {
+const ContentSection = ({text}) => {
     const [wpm, setWpm] = useState(0);
     console.log(wpm);
     const [percentComplete, setPercentComplete] = useState(0);
@@ -21,16 +21,16 @@ const Content = ({text}) => {
                 wpm={wpm}
                 percentComplete={percentComplete}
                 started={started}
-            /> 
+            />
             <TextCard
                 textToType={text}
                 setWpm={setWpm}
                 setPercentComplete={setPercentComplete}
                 started={started}
                 setStarted={setStarted}
-            /> 
+            />
         </div>
     );
 }
 
-export default Content;
+export default ContentSection;
