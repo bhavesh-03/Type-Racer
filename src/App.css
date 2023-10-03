@@ -1,10 +1,10 @@
 :root {
-  --background-color: #fef6e4;
+  --background-color: #191919;
   --heading: #001858;
   --text: #172c66;
-  --accent: #f582ae;
-  --accent-text: #001858;
-  --bg-secondary: #f3d2c1;
+  --accent: #2D9EFB;
+  --accent-text: #ffffff;
+  --bg-secondary: #191919;
   --accent-secondary: #8bd3dd;
 }
 
@@ -51,7 +51,7 @@
   background-color: var(--bg-secondary);
   color: var(--text);
   border-radius: 10px;
-  box-shadow: 0 1px 5px rgba(221, 16, 98, 0.596);
+  box-shadow: 0 1px 5px rgba(255, 255, 255, 0.596);
 }
 
 .info-box {

@@ -23,7 +23,7 @@ const CarProgressBar = ({ percentComplete }) => {
                         height="26"
                         fill="transparent"
                         rx="30"
-                        stroke="#f582ae"
+                        stroke="red"
                         strokeWidth="2"
                     />
 
@@ -32,7 +32,7 @@ const CarProgressBar = ({ percentComplete }) => {
                         y="14"
                         width="68"
                         height="16"
-                        fill="#f582ae"
+                        fill="red"
                         rx="6"
                     />
 
